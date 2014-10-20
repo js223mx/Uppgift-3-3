@@ -69,11 +69,25 @@ body {
     padding-right: 10px;
     border-right: thin dashed #AFAF93;
 }
+#maincontent img {
+    float: left;
+    padding-right: 12px;
+}
+#maincontent h1 {
+    font-weight: 100;
+    margin: 0 10px 10px 0;
+}
+#maincontent p {
+    line-height: 155%;
+    padding: 0;
+    font-size: 100%;
+}
 
 /*subcontent-----------------------------------------------------*/
 #subcontent {
     display: inline-block;
     width: 194px;
+    padding: 5px;
 }
 #subcontent p {
     font-size: 63%;
@@ -84,20 +98,26 @@ body {
     font-size: 110%;
     padding-top: 20px;
     padding-bottom: 5px;
+    font-weight: 100;
 }
 #subcontent h2 {
     font-size: 90%;
     padding-top: 20px;
     font-weight: 100;
-    margin: 00 3px 0;
+    margin: 0 0 3px 0;
 }
+
 #subcontent li {
     list-style: none;
-    font-size: 80%;
+    font-size: 100%;
     line-height: 150%;
 }
 #subcontent li a {
     color: #51473D;
+}
+#subcontent ul {
+    padding-left: 0;
+    margin: 0 0 20px 0;
 }
 
 /*bottomcontent----------------------------------------------------*/
